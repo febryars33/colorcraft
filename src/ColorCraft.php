@@ -1,5 +1,8 @@
 <?php
 
+
+namespace ColorCraft\Parser;
+
 /**
  * ColorCraft class
  * 
