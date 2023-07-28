@@ -13,7 +13,7 @@ class Encoding
     public function encodingConverter(array $array): array
     {
         foreach ($array as $key => $value) {
-            $fixed[$key] = iconv(mb_detect_encoding($value, mb_detect_order(), true), 'UTF-8', $value);
+            $fixed[$key] = str_replace('§', '&', iconv(mb_detect_encoding($value, mb_detect_order(), true), 'UTF-8', $value));
         }
         return $fixed;
     }
