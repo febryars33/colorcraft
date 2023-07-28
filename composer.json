@@ -1,28 +1,28 @@
 {
-    "name": "febryars33/colorcraft",
-    "description": "Minecraft Color Parser With PHP",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/febryars33/colorcraft.git"
-        }
-    ],
-    "type": "library",
-    "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Febryars33\\Colorcraft\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Febriansyah",
-            "homepage": "https://febryars33.xyz",
-            "role": "developer"
-        }
-    ],
-    "require": {}
+  "name": "febryars33/colorcraft",
+  "description": "The Minecraft color text parser for PHP",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/febryars33/colorcraft.git"
+    }
+  ],
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^10.2"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Febryars33\\ColorCraft\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Febriansyah",
+      "email": "echo.febryars33@gmail.com",
+      "homepage": "https://snairbef.com"
+    }
+  ],
+  "require": {}
 }
