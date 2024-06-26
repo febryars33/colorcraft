@@ -1,0 +1,22 @@
+{
+    "name": "febryars33/colorcraft",
+    "description": "Convert Minecraft color and format codes to HTML spans with CSS classes.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Febryars33\\ColorCraft\\": "src/",
+            "Febryars33\\ColorCraft\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always"
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}

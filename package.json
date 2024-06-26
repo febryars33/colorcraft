@@ -1,0 +1,16 @@
+{
+    "name": "colorcraft",
+    "version": "1.0.0",
+    "description": "Convert Minecraft color and format codes to HTML spans with CSS classes.",
+    "author": "Febriansyah Riki Setiadi",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "sass": "^1.77.6"
+    },
+    "scripts": {
+        "build": "npm run build:css & npm run build:css-compressed",
+        "build:css": "sass sass/colorcraft.scss css/colorcraft.css",
+        "build:css-compressed": "sass sass/colorcraft.scss css/colorcraft.min.css --style compressed"
+    }
+}

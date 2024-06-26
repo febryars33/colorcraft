@@ -1,0 +1,96 @@
+.colorcraft {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.colorcraft.black {
+  color: #000000;
+}
+
+.colorcraft.dark-blue {
+  color: #0000aa;
+}
+
+.colorcraft.dark-green {
+  color: #00aa00;
+}
+
+.colorcraft.dark-aqua {
+  color: #00aaaa;
+}
+
+.colorcraft.dark-red {
+  color: #aa0000;
+}
+
+.colorcraft.dark-purple {
+  color: #aa00aa;
+}
+
+.colorcraft.gold {
+  color: #ffaa00;
+}
+
+.colorcraft.gray {
+  color: #aaaaaa;
+}
+
+.colorcraft.dark-gray {
+  color: #555555;
+}
+
+.colorcraft.blue {
+  color: #5555ff;
+}
+
+.colorcraft.green {
+  color: #55ff55;
+}
+
+.colorcraft.aqua {
+  color: #55ffff;
+}
+
+.colorcraft.red {
+  color: #ff5555;
+}
+
+.colorcraft.light-purple {
+  color: #ff55ff;
+}
+
+.colorcraft.yellow {
+  color: #ffff55;
+}
+
+.colorcraft.white {
+  color: #ffffff;
+}
+
+.colorcraft.bold {
+  font-weight: bold;
+}
+
+.colorcraft.italic {
+  font-style: italic;
+}
+
+.colorcraft.underline {
+  text-decoration: underline;
+}
+
+.colorcraft.strikethrough {
+  text-decoration: line-through;
+}
+
+.colorcraft.magic {
+  /* JavaScript will handle this obfuscated text. */
+}
+
+.colorcraft.reset {
+  color: initial;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=colorcraft.css.map */

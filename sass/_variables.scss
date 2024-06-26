@@ -1,0 +1,43 @@
+// scss-docs-start color-variables
+$black: #000000;
+$dark-blue: #0000aa;
+$dark-green: #00aa00;
+$dark-aqua: #00aaaa;
+$dark-red: #aa0000;
+$dark-purple: #aa00aa;
+$gold: #ffaa00;
+$gray: #aaaaaa;
+$dark-gray: #555555;
+$blue: #5555ff;
+$green: #55ff55;
+$aqua: #55ffff;
+$red: #ff5555;
+$light-purple: #ff55ff;
+$yellow: #ffff55;
+$white: #ffffff;
+// scss-docs-end color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+    "black": $black,
+    "dark-blue": $dark-blue,
+    "dark-green": $dark-green,
+    "dark-aqua": $dark-aqua,
+    "dark-red": $dark-red,
+    "dark-purple": $dark-purple,
+    "gold": $gold,
+    "gray": $gray,
+    "dark-gray": $dark-gray,
+    "blue": $blue,
+    "green": $green,
+    "aqua": $aqua,
+    "red": $red,
+    "light-purple": $light-purple,
+    "yellow": $yellow,
+    "white": $white,
+) !default;
+// scss-docs-end theme-colors-map
+
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
